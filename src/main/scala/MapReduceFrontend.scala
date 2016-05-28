@@ -11,7 +11,7 @@ import akka.pattern.ask
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
 import java.util.concurrent.atomic.AtomicInteger
-
+ 
 //#frontend
 class MapReduceFrontend extends Actor {
 

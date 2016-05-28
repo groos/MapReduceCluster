@@ -2,6 +2,7 @@ package MapReduce
 
 import com.typesafe.config.ConfigFactory
 import akka.actor.ActorSystem
+import akka.actor.Actor
 import akka.actor.Props
 import akka.cluster.Cluster;
 import akka.cluster.ClusterEvent;
@@ -19,7 +20,21 @@ computing the reverse index for proper names in a set of text files (what you di
 computing the number of incoming hyperlinks for each html file in a set of html files 
 	(the first step in computing its PageRank)
 */
+ 
+class MapReduceApp extends Actor {
 
+  	val config = ConfigFactory.parseString("akka.remote.netty.tcp.port=0").
+	withFallback(ConfigFactory.load())
+	val system = ActorSystem("ClusterSystem", config)
+
+	val router = system.actorOf(Props[MapReduceRouterService], name = "appRouter")
+	router ! "hi there!"
+
+	def receive = {
+		case msg: String => println("received in MapReduceApp Actor")
+	}
+} 
+ 
 
 object MapReduceApp {
   def main(args: Array[String]): Unit = {
@@ -35,11 +50,17 @@ object MapReduceApp {
 		
 		// Backend nodes will accept and perform jobs and output their results to the sender
 		MapReduceBackend.main(Seq("2552").toArray)
+
   	} else {
   		MapReduceFrontend.main(Seq(args(3)).toArray)
   		MapReduceBackend.main(Seq(args(3)).toArray)
   	}
-
+  	
+	val config = ConfigFactory.parseString("akka.remote.netty.tcp.port=0").
+	withFallback(ConfigFactory.load())
+	val system = ActorSystem("ClusterSystem", config)
+	
+	system.actorOf(Props[MapReduceApp], name = "MapReduceApp")
   	
   	// get reference to all front end nodes and send out job?
   	

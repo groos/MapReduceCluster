@@ -16,7 +16,7 @@ import com.typesafe.config.ConfigFactory
 
 //#backend
 class MapReduceBackend extends Actor {
-
+ 
   val cluster = Cluster(context.system)
 
   // subscribe to cluster changes, MemberUp
@@ -25,10 +25,12 @@ class MapReduceBackend extends Actor {
   override def postStop(): Unit = cluster.unsubscribe(self)
 
   def receive = {
+  case msg:String => println("you just sent a message to a back end node!")
     case MapReduceJob(text) => sender() ! TransformationResult(text.toUpperCase)
     case state: CurrentClusterState =>
       state.members.filter(_.status == MemberStatus.Up) foreach register
     case MemberUp(m) => register(m)
+    
   }
 
   def register(member: Member): Unit =
