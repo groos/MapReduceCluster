@@ -1,0 +1,406 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes
+compile options:
+2 items
+0 -> -unchecked
+1 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceApp$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceApp.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$$anonfun$receive$1$$anonfun$applyOrElse$2.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$$anonfun$receive$1.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$main$1.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$receive$1.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/BackendRegistration$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/BackendRegistration.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/JobFailed$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/JobFailed.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationJob$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationJob.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationResult$.class
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationResult.class
+binary dependencies:
+15 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.4.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> /Users/ntgroos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+4 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> /Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> /Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> MapReduce.MapReduceApp
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> MapReduce.MapReduceApp$
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduce.MapReduceBackend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduce.MapReduceBackend$
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduce.MapReduceBackend$$anonfun$receive$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduce.MapReduceBackend$$anonfun$receive$1$$anonfun$applyOrElse$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduce.MapReduceBackend$$anonfun$receive$1$$anonfun$applyOrElse$2
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce.MapReduceFrontend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce.MapReduceFrontend$
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce.MapReduceFrontend$$anonfun$main$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce.MapReduceFrontend$$anonfun$main$1$$anonfun$apply$mcV$sp$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce.MapReduceFrontend$$anonfun$receive$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce.MapReduceFrontend$$anonfun$receive$1$$anonfun$applyOrElse$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.BackendRegistration
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.BackendRegistration$
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.JobFailed
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.JobFailed$
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.TransformationJob
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.TransformationJob$
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.TransformationResult
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce.TransformationResult$
+used names:
+225 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> <init>
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> ActorSystem
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> AnyRef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> Array
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> ClassTag
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> ConfigFactory
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> MapReduce
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> MapReduceApp
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> MapReduceBackend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> MapReduceFrontend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> Predef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> Props
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> Seq
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> String
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> Unit
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> actor
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> akka
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> apply
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> collection
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> com
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> config
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> main
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> materializeClassTag
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> package
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> toArray
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> typesafe
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> !
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> /
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> <init>
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ==
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> A1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Actor
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ActorRef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ActorSelection
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ActorSystem
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> AnyRef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Array
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> B1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> BackendRegistration
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ClassTag
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Cluster
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ClusterEvent
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> ConfigFactory
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> CurrentClusterState
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Function1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduce
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MapReduceBackend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Member
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MemberStatus
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> MemberUp
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Predef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Props
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> RootActorPath
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> String
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> StringContext
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Unit
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> Up
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> actor
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> actorOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> actorRef2Scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> actorSelection
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> address
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> akka
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> apply
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> args
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> asInstanceOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> cluster
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> com
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> concurrent
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> config
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> context
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> duration
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> filter
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> foreach
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> hasRole
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> isEmpty
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> isInstanceOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> language
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> load
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> m
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> materializeClassTag
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> member
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> members
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> package
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> parseString
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> port
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> postfixOps
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> refArrayOps
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> register
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> s
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> self
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> sender
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> status
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> subscribe
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> system
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> text
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> toScala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> toUpperCase
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> typesafe
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> unchecked
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> unsubscribe
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> withFallback
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> !
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> %
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> +
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> :+
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> <init>
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ==
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ?
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> A1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Actor
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ActorRef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ActorSystem
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> AnyRef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Array
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> AtomicInteger
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> B1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> BackendRegistration
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ClassTag
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ConfigFactory
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Function1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> IndexedSeq
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduce
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> MapReduceFrontend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Predef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Props
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> String
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> StringContext
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Terminated
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Timeout
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> Unit
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> a
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> actor
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> actorOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> actorRef2Scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> akka
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> apply
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> args
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> asInstanceOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> ask
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> atomic
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> backends
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> backends_=
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> canBuildFrom
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> collection
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> com
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> concurrent
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> config
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> contains
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> context
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> counter
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> dispatcher
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> duration
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> empty
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> filterNot
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> forward
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> frontend
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> incrementAndGet
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> isEmpty
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> isInstanceOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> java
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> jobCounter
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> jobCounter_=
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> language
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> load
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> materializeClassTag
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> onSuccess
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> package
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> parseString
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> pattern
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> port
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> postfixOps
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> println
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> qual$1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> refArrayOps
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> s
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> schedule
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> scheduler
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> seconds
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> self
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> sender
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> size
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> system
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> timeout
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> typesafe
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> unary_!
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> unchecked
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> util
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> watch
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> withFallback
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> x$2
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> x$3
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> x$4
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> &&
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> <init>
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> ==
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> AbstractFunction1
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> AbstractFunction2
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> BackendRegistration
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> JobFailed
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> MapReduce
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> None
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> Predef
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> Product
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> ScalaRunTime
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> Serializable
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> String
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> TransformationJob
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> TransformationResult
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> _hashCode
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> _toString
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> asInstanceOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> eq
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> isInstanceOf
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> job
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> reason
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> runtime
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> scala
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> text
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> toString
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> typedProductIterator
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> ||
+product stamps:
+21 items
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/BackendRegistration$.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/BackendRegistration.class -> lastModified(1464457013000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/JobFailed$.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/JobFailed.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceApp$.class -> lastModified(1464457214000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceApp.class -> lastModified(1464457214000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$$anonfun$receive$1$$anonfun$applyOrElse$2.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$$anonfun$receive$1.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend$.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceBackend.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$main$1.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$$anonfun$receive$1.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend$.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/MapReduceFrontend.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationJob$.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationJob.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationResult$.class -> lastModified(1464457014000)
+/Users/ntgroos/akka/MapReduceCluster/target/scala-2.11/classes/MapReduce/TransformationResult.class -> lastModified(1464457014000)
+source stamps:
+4 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> hash(1bad01afa08d738f3a5c514b98271d2b748fe09a)
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> hash(7f12512687176da789a195cfbf8807bac364e995)
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> hash(ae3641756fb9258ac820f5b500efe44f35aba454)
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> hash(3706705393f6740b7d219636b0f6a3f80575c6ab)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1410998958000)
+/Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar -> lastModified(1460527087000)
+/Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.4.jar -> lastModified(1460527300000)
+/Users/ntgroos/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar -> lastModified(1431099969000)
+/Users/ntgroos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar -> akka.actor.ActorSystem
+/Users/ntgroos/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.4.jar -> akka.cluster.Cluster$
+/Users/ntgroos/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar -> com.typesafe.config.ConfigFactory
+/Users/ntgroos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.reflect.package$
+internal apis:
+4 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBgK8E0AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJ17+Bt0AAZub3RpZnlzcQB+AAwIWTp7dAAEd2FpdHNxAH4ADHveljF0AA0kYXNJbnN0YW5jZU9mc3EAfgAM+IVGRXQABmVxdWFsc3NxAH4ADJMzyPJ0AAxhc0luc3RhbmNlT2ZzcQB+AAy5RHo/dAAMc3luY2hyb25pemVkc3EAfgAMj/KJwHQADSRpc0luc3RhbmNlT2ZzcQB+AAwC6nFgdAAEbWFpbnNxAH4ADA3k0rl0AAlub3RpZnlBbGxzcQB+AAw6hAT4dAAMaXNJbnN0YW5jZU9mc3EAfgAMvDEaXnQADE1hcFJlZHVjZUFwcHNxAH4ADLK3fGt0AAI9PXNxAH4ADEmscUd0AAVjbG9uZXNxAH4ADBb9USF0AAh0b1N0cmluZ3NxAH4ADKL7yMd0AAIhPXNxAH4ADBGytFh0AAhnZXRDbGFzc3NxAH4ADOAo6Wl0AAJuZXNxAH4ADI7k/BB0AAJlcXNxAH4ADDh3TMF0AAIjI3NxAH4ADGRzMQ50AAhmaW5hbGl6ZXNxAH4ADKSPmbd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZNYXBSZWR1Y2UuTWFwUmVkdWNlQXBwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/cHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+AJMAAAACc3EAfgBudAAGT2JqZWN0cQB+AJdzcQB+AG50AANBbnlxAH4AdHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAJTWFwUmVkdWNlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFU+HOoX3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD4vVXNlcnMvbnRncm9vcy9ha2thL01hcFJlZHVjZUNsdXN0ZXIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFButAa+gjXOPOlxRS5gnHSt0j+Ca
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDdnkSZAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwVVqGtnQABHNlbGZzcQB+AAtBSsqTdAAHY29udGV4dHVxAH4ACQAAACZzcQB+AAvcgmAkdAAGbm90aWZ5c3EAfgALdu/TMXQACHJlZ2lzdGVyc3EAfgAL3n5Z7XQAB1JlY2VpdmVzcQB+AAsX8tt7dAAEd2FpdHNxAH4ACwYJXaF0AA0kYXNJbnN0YW5jZU9mc3EAfgAL+maD6HQABmVxdWFsc3NxAH4AC96YF+x0AAxhc0luc3RhbmNlT2ZzcQB+AAuJCmUtdAAMc3luY2hyb25pemVkc3EAfgALZTraTHQADSRpc0luc3RhbmNlT2ZzcQB+AAuIAgywdAAHcmVjZWl2ZXNxAH4AC0aSsc10AApwcmVSZXN0YXJ0c3EAfgALvrKzXHQADWFyb3VuZFJlY2VpdmVzcQB+AAvTDGyPdAALcG9zdFJlc3RhcnRzcQB+AAu0UcZ6dAAEbWFpbnNxAH4ACxKWbBN0ABBNYXBSZWR1Y2VCYWNrZW5kc3EAfgAL62c4wnQACHBvc3RTdG9wc3EAfgAL2wh5rHQACW5vdGlmeUFsbHNxAH4AC0XyRJJ0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC3/vZhx0AAxpc0luc3RhbmNlT2ZzcQB+AAsV+/OgdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC9iDfK50AA5hcm91bmRQb3N0U3RvcHNxAH4AC5D0j6x0AAdjbHVzdGVyc3EAfgALnhM4TnQABjxpbml0PnNxAH4AC9hA9V90AAhwcmVTdGFydHNxAH4ACwvCeMJ0AAl1bmhhbmRsZWRzcQB+AAvOkt2ldAACPT1zcQB+AAsduU+xdAAFY2xvbmVzcQB+AAt20/sqdAAGc2VuZGVyc3EAfgALfm4ykHQACHRvU3RyaW5nc3EAfgALUuUl5XQAAiE9c3EAfgALYJiTtHQACGdldENsYXNzc3EAfgALH/sg7HQAAm5lc3EAfgALWpDEPnQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC+rcGgR0AAJlcXNxAH4AC50h5tt0AAIjI3NxAH4AC/VhxjZ0AAhmaW5hbGl6ZXNxAH4AC6E4ohJ0AAhoYXNoQ29kZXNxAH4AC+U0nyZ0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABpNYXBSZWR1Y2UuTWFwUmVkdWNlQmFja2VuZHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AgHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AfwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AZ0wACWluaGVyaXRlZHEAfgBnTAAHcGFyZW50c3EAfgBneHEAfgCIc3EAfgB/AXVxAH4AYgAAAABwc3EAfgB/AXVxAH4AYgAAAABwc3EAfgB/AXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ah3QABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCHc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCgdAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHQABk9iamVjdHNxAH4AmHNxAH4Am3VxAH4AngAAAANzcQB+AKB0AARqYXZhc3EAfgCgdAAEbGFuZ3EAfgCnc3EAfgCUdAADQW55c3EAfgCYc3EAfgCbdXEAfgCeAAAAAnNxAH4AoHQABXNjYWxhcQB+AKdwcHNxAH4AZHEAfgBxdXEAfgByAAAAAHNxAH4AdAB0ABpNYXBSZWR1Y2UuTWFwUmVkdWNlQmFja2VuZHVxAH4AdwAAAAB+cQB+AHl0AAZNb2R1bGV1cQB+AH0AAAAAc3EAfgB/AHBzcQB+AIRxAH4AiXNxAH4AfwFzcQB+AItzcQB+AH8BdXEAfgBiAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBocQB+AHF1cQB+AHIAAAAAc3EAfgB0AHEAfgAtdXEAfgB3AAAAAHNxAH4AlHQABFVuaXRzcQB+AJhzcQB+AJt1cQB+AJ4AAAACc3EAfgCgcQB+ALdxAH4Ap3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AMd4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AHp0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AJVbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AIdzcQB+AJR0AAVBcnJheXEAfgDPdXEAfgCSAAAAAXNxAH4AlHQABlN0cmluZ3NxAH4AmHNxAH4Am3VxAH4AngAAAANzcQB+AKBxAH4ArnNxAH4AoHEAfgCwcQB+AKdwc3EAfgB/AXVxAH4AYgAAAABwc3EAfgB/AXVxAH4AkgAAAAJzcQB+AJRxAH4AqXEAfgDpc3EAfgCUcQB+ALJxAH4Az3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAJTWFwUmVkdWNlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFU+HCaAHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD4vVXNlcnMvbnRncm9vcy9ha2thL01hcFJlZHVjZUNsdXN0ZXIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFH8SUSaHF22niaGVz7+IB7rDZOmV
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC2IEHoAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw6aFA4XQABHNlbGZzcQB+AAs4wqmSdAAHY29udGV4dHVxAH4ACQAAACZzcQB+AAuvySVsdAAGbm90aWZ5c3EAfgALLRBTbnQAB1JlY2VpdmVzcQB+AAuNlQUkdAAKam9iQ291bnRlcnNxAH4AC5q8Cbp0AAR3YWl0c3EAfgALoHPjiXQADSRhc0luc3RhbmNlT2ZzcQB+AAsni8gTdAAGZXF1YWxzc3EAfgALtI45EHQACGJhY2tlbmRzc3EAfgALlzyd6HQADGFzSW5zdGFuY2VPZnNxAH4ACzm0PpB0ABFNYXBSZWR1Y2VGcm9udGVuZHNxAH4AC6DZ3SN0AAxzeW5jaHJvbml6ZWRzcQB+AAsf7ppfdAANJGlzSW5zdGFuY2VPZnNxAH4AC515LWd0AAdyZWNlaXZlc3EAfgALIBzuxXQACnByZVJlc3RhcnRzcQB+AAvHtGICdAANYXJvdW5kUmVjZWl2ZXNxAH4AC4Q6o6Z0AAtwb3N0UmVzdGFydHNxAH4AC4n8SIx0AARtYWluc3EAfgALDhndYHQACHBvc3RTdG9wc3EAfgALdHRzT3QACW5vdGlmeUFsbHNxAH4AC4VNnb50ABFhcm91bmRQb3N0UmVzdGFydHNxAH4ACx6x/T10AAxpc0luc3RhbmNlT2ZzcQB+AAspWpHUdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC833HDZ0AA5hcm91bmRQb3N0U3RvcHNxAH4AC3OqEhB0AAY8aW5pdD5zcQB+AAuILUlqdAAIcHJlU3RhcnRzcQB+AAuK3FFadAAJdW5oYW5kbGVkc3EAfgALnVXJ6XQAAj09c3EAfgALl9EK6XQABWNsb25lc3EAfgALb5MQLXQABnNlbmRlcnNxAH4AC7XqjH90AAh0b1N0cmluZ3NxAH4AC19QQjB0AAIhPXNxAH4AC1h5kiZ0AAhnZXRDbGFzc3NxAH4AC0lT2Sp0AAJuZXNxAH4AC7KI0Oh0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAvG/t+PdAACZXFzcQB+AAtCAOjadAACIyNzcQB+AAtU9ugCdAAIZmluYWxpemVzcQB+AAvqtF1bdAAIaGFzaENvZGVzcQB+AAuOHqDBdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBneHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAbTWFwUmVkdWNlLk1hcFJlZHVjZUZyb250ZW5kdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCAeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB/AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBnTAAJaW5oZXJpdGVkcQB+AGdMAAdwYXJlbnRzcQB+AGd4cQB+AIhzcQB+AH8BdXEAfgBiAAAAAHBzcQB+AH8BdXEAfgBiAAAAAHBzcQB+AH8BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCHdAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AKB0AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgChc3EAfgCUdAAGT2JqZWN0c3EAfgCYc3EAfgCbdXEAfgCeAAAAA3NxAH4AoHQABGphdmFzcQB+AKB0AARsYW5ncQB+AKdzcQB+AJR0AANBbnlzcQB+AJhzcQB+AJt1cQB+AJ4AAAACc3EAfgCgdAAFc2NhbGFxAH4Ap3Bwc3EAfgBkcQB+AHF1cQB+AHIAAAAAc3EAfgB0AHQAG01hcFJlZHVjZS5NYXBSZWR1Y2VGcm9udGVuZHVxAH4AdwAAAAB+cQB+AHl0AAZNb2R1bGV1cQB+AH0AAAAAc3EAfgB/AHBzcQB+AIRxAH4AiXNxAH4AfwFzcQB+AItzcQB+AH8BdXEAfgBiAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBocQB+AHF1cQB+AHIAAAAAc3EAfgB0AHEAfgAxdXEAfgB3AAAAAHNxAH4AlHQABFVuaXRzcQB+AJhzcQB+AJt1cQB+AJ4AAAACc3EAfgCgcQB+ALdxAH4Ap3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AMd4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AHp0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AJVbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AIdzcQB+AJR0AAVBcnJheXEAfgDPdXEAfgCSAAAAAXNxAH4AlHQABlN0cmluZ3NxAH4AmHNxAH4Am3VxAH4AngAAAANzcQB+AKBxAH4ArnNxAH4AoHEAfgCwcQB+AKdwc3EAfgB/AXVxAH4AYgAAAABwc3EAfgB/AXVxAH4AkgAAAAJzcQB+AJRxAH4AqXEAfgDpc3EAfgCUcQB+ALJxAH4Az3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAJTWFwUmVkdWNlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFU+HCaAHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD4vVXNlcnMvbnRncm9vcy9ha2thL01hcFJlZHVjZUNsdXN0ZXIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK42QXVvuSWKyCD1tQDv5E81q6RU
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCeEhjvAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cETi7CF0AAZub3RpZnlzcQB+AAwvFSc0dAAEd2FpdHNxAH4ADDoyiUl0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADDrndr10AA0kYXNJbnN0YW5jZU9mc3EAfgAMlqDb+XQAEVRyYW5zZm9ybWF0aW9uSm9ic3EAfgAMzPJ3J3QADHByb2R1Y3RBcml0eXNxAH4ADD+WvDJ0AAZlcXVhbHNzcQB+AAx8N7WrdAAUVHJhbnNmb3JtYXRpb25SZXN1bHRzcQB+AAw4Y//xdAAMYXNJbnN0YW5jZU9mc3EAfgAMbi5gZnQADHN5bmNocm9uaXplZHNxAH4ADJpI7HN0AA0kaXNJbnN0YW5jZU9mc3EAfgAMo2mQgHQAA2pvYnNxAH4ADCWVpad0AAR0ZXh0c3EAfgAMSJZAG3QACGNhbkVxdWFsc3EAfgAMbh6+l3QADXByb2R1Y3RQcmVmaXhzcQB+AAyZXj74dAAGcmVhc29uc3EAfgAMKZHk9XQACW5vdGlmeUFsbHNxAH4ADJcSbX90AAtyZWFkUmVzb2x2ZXNxAH4ADK1co1N0AAxpc0luc3RhbmNlT2ZzcQB+AAxXcRQ/dAAGPGluaXQ+c3EAfgAMWMtXS3QAAj09c3EAfgAM0pq203QABWNsb25lc3EAfgAMhmsU53QACUpvYkZhaWxlZHNxAH4ADMMe57R0AARjb3B5c3EAfgAMMvOWQnQACHRvU3RyaW5nc3EAfgAMMKZH7XQAAiE9c3EAfgAMaNAc03QAE0JhY2tlbmRSZWdpc3RyYXRpb25zcQB+AAznVou+dAAIZ2V0Q2xhc3NzcQB+AAxy20BBdAAOY29weSRkZWZhdWx0JDFzcQB+AAwgVhvRdAACbmVzcQB+AAxWrhgIdAACZXFzcQB+AAz/DbtLdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM0KvyRHQAAiMjc3EAfgAMQ7eo/nQACGZpbmFsaXplc3EAfgAM8uUeV3QADnByb2R1Y3RFbGVtZW50c3EAfgAMhW4mIXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwBHQAG01hcFJlZHVjZS5UcmFuc2Zvcm1hdGlvbkpvYnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AeHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AdwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgCAc3EAfgB3AXVxAH4AWgAAAABwc3EAfgB3AXVxAH4AWgAAAABwc3EAfgB3AXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Af3QADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Af3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AmXNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHQABGphdmFzcQB+AJh0AAJpb3EAfgCdc3EAfgCMdAAHUHJvZHVjdHEAfgCSc3EAfgCMdAAGRXF1YWxzcQB+AJJzcQB+AIx0AAZPYmplY3RzcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJh0AARsYW5ncQB+AJ1zcQB+AIx0AANBbnlxAH4AknBwc3EAfgBccQB+AGl1cQB+AGoAAAAAc3EAfgBsBHQAHk1hcFJlZHVjZS5UcmFuc2Zvcm1hdGlvblJlc3VsdHVxAH4AbwAAAABxAH4Ac3VxAH4AdQAAAABzcQB+AHcAcHNxAH4AfHEAfgCBc3EAfgB3AXNxAH4Ag3NxAH4AdwF1cQB+AFoAAAAAcHNxAH4AdwF1cQB+AFoAAAAAcHNxAH4AdwF1cQB+AIoAAAAGc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYcQB+AJtxAH4AnXNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCjc3EAfgCYdAACaW9xAH4AnXNxAH4AjHEAfgCncQB+AMVzcQB+AIx0AAZFcXVhbHNxAH4AxXNxAH4AjHEAfgCrc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCjc3EAfgCYcQB+ALFxAH4AnXNxAH4AjHEAfgCzcQB+AMVwcHNxAH4AXHEAfgBpdXEAfgBqAAAAAHNxAH4AbAR0ABNNYXBSZWR1Y2UuSm9iRmFpbGVkdXEAfgBvAAAAAHEAfgBzdXEAfgB1AAAAAHNxAH4AdwBwc3EAfgB8cQB+AIFzcQB+AHcBc3EAfgCDc3EAfgB3AXVxAH4AWgAAAABwc3EAfgB3AXVxAH4AWgAAAABwc3EAfgB3AXVxAH4AigAAAAZzcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAAJzcQB+AJhxAH4Am3EAfgCdc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJh0AAJpb3EAfgCdc3EAfgCMcQB+AKdxAH4A63NxAH4AjHQABkVxdWFsc3EAfgDrc3EAfgCMcQB+AKtzcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJhxAH4AsXEAfgCdc3EAfgCMcQB+ALNxAH4A63Bwc3EAfgBccQB+AGl1cQB+AGoAAAAAc3EAfgBsAHQAHU1hcFJlZHVjZS5CYWNrZW5kUmVnaXN0cmF0aW9udXEAfgBvAAAAAH5xAH4AcXQABk1vZHVsZXVxAH4AdQAAAABzcQB+AHcAcHNxAH4AfHEAfgCBc3EAfgB3AXNxAH4Ag3NxAH4AdwF1cQB+AFoAAAAAcHNxAH4AdwF1cQB+AFoAAAAAcHNxAH4AdwF1cQB+AIoAAAAGc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYcQB+AJtxAH4AnXNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCjc3EAfgCYdAACaW9xAH4AnXNxAH4AjHEAfgCncQB+ARNzcQB+AIx0AAZFcXVhbHNxAH4BE3NxAH4AjHEAfgCrc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCjc3EAfgCYcQB+ALFxAH4AnXNxAH4AjHEAfgCzcQB+ARNwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACU1hcFJlZHVjZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPhwmgB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL250Z3Jvb3MvYWtrYS9NYXBSZWR1Y2VDbHVzdGVyL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ3BnBTk/Z0C30hljaw9qP4BXXGqw==
+external apis:
+0 items
+source infos:
+4 items
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceApp.scala -> 
+AAAAAAAAAAA=
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceBackend.scala -> 
+AAAAAAAAAAA=
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceFrontend.scala -> 
+AAAAAAAAAAA=
+/Users/ntgroos/akka/MapReduceCluster/src/main/scala/MapReduce/MapReduceMessages.scala -> 
+AAAAAAAAAAA=
+compilations:
+7 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPgs0W51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPy9Vc2Vycy9udGdyb29zL2Fra2EvYWtrYS1jbHVzdGVyLXBsYXkvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPgtdb11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPy9Vc2Vycy9udGdyb29zL2Fra2EvYWtrYS1jbHVzdGVyLXBsYXkvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPgy4z91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPy9Vc2Vycy9udGdyb29zL2Fra2EvYWtrYS1jbHVzdGVyLXBsYXkvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPg+uh11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPy9Vc2Vycy9udGdyb29zL2Fra2EvYWtrYS1jbHVzdGVyLXBsYXkvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPhwmgB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9udGdyb29zL2Fra2EvTWFwUmVkdWNlQ2x1c3Rlci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPhxAPJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9udGdyb29zL2Fra2EvTWFwUmVkdWNlQ2x1c3Rlci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVPhzqF91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9udGdyb29zL2Fra2EvTWFwUmVkdWNlQ2x1c3Rlci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

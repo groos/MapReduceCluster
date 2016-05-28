@@ -1,0 +1,13 @@
+runMain ClusterPlay.scala
+runMain ClusterPlayApp.scala
+runMain clusterPlay.ClusterPlayApp
+runMain clusterPlay.ClusterPlayApp 2551
+runMain clusterPlay.ClusterPlayApp 2552
+runMain clusterPlay.ClusterPlayApp 2551
+runMain clusterPlay.ClusterPlayApp 2552
+runMain ClusterPlay.ClusterPlayApp 0
+runMain clusterPlay.ClusterPlayApp 0
+runMain clusterPlay.ClusterPlayApp 2552
+runMain MapReduceApp
+runMain MapReduceApp 0
+runMain MapReduce.MapReduceApp
