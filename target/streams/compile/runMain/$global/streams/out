@@ -1,40 +1,25 @@
 [0m[[0minfo[0m] [0mRunning MapReduce.MapReduceApp [0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:17.410] [main] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:17.740] [main] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2551][0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:17.759] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Starting up...[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:17.933] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Registered cluster JMX MBean [akka:type=Cluster][0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:17.934] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Started up successfully[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.012] [main] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.024] [main] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2552][0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.026] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Starting up...[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.032] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Started up successfully[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.319] [ClusterSystem-akka.actor.default-dispatcher-16] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Node [akka.tcp://ClusterSystem@127.0.0.1:2551] is JOINING, roles [frontend][0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.331] [ClusterSystem-akka.actor.default-dispatcher-16] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Leader is moving node [akka.tcp://ClusterSystem@127.0.0.1:2551] to [Up][0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.562] [ClusterSystem-akka.actor.default-dispatcher-18] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Metrics collection has started successfully[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:18.562] [ClusterSystem-akka.actor.default-dispatcher-14] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Metrics collection has started successfully[0m
-[0m[[0minfo[0m] [0mJobFailed(Service unavailable, try again later,TransformationJob(hello-1))[0m
-[0m[[0minfo[0m] [0mJobFailed(Service unavailable, try again later,TransformationJob(hello-2))[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:23.345] [ClusterSystem-akka.actor.default-dispatcher-18] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Node [akka.tcp://ClusterSystem@127.0.0.1:2552] is JOINING, roles [backend][0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:23.456] [ClusterSystem-akka.actor.default-dispatcher-18] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Welcome from [akka.tcp://ClusterSystem@127.0.0.1:2551][0m
-[0m[[0minfo[0m] [0m[WARN] [05/28/2016 12:42:23.467] [ClusterSystem-akka.remote.default-remote-dispatcher-4] [akka.serialization.Serialization(akka://ClusterSystem)] Using the default Java serializer for class [MapReduce.BackendRegistration$] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0m[WARN] [05/28/2016 12:42:23.975] [ClusterSystem-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://ClusterSystem)] Using the default Java serializer for class [MapReduce.TransformationJob] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0m[INFO] [05/28/2016 12:42:23.980] [ClusterSystem-akka.actor.default-dispatcher-3] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Leader is moving node [akka.tcp://ClusterSystem@127.0.0.1:2552] to [Up][0m
-[0m[[0minfo[0m] [0m[WARN] [05/28/2016 12:42:23.987] [ClusterSystem-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://ClusterSystem)] Using the default Java serializer for class [MapReduce.TransformationResult] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:43.989] [main] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.306] [main] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2551][0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.328] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.455] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Registered cluster JMX MBean [akka:type=Cluster][0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.455] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.563] [main] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.577] [main] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2552][0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.580] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.585] [main] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.816] [ClusterSystem-akka.actor.default-dispatcher-14] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Node [akka.tcp://ClusterSystem@127.0.0.1:2551] is JOINING, roles [frontend][0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:44.828] [ClusterSystem-akka.actor.default-dispatcher-14] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Leader is moving node [akka.tcp://ClusterSystem@127.0.0.1:2551] to [Up][0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:45.094] [ClusterSystem-akka.actor.default-dispatcher-3] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:45.116] [ClusterSystem-akka.actor.default-dispatcher-3] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0mJobFailed(Service unavailable, try again later,MapReduceJob(hello-1))[0m
+[0m[[0minfo[0m] [0mJobFailed(Service unavailable, try again later,MapReduceJob(hello-2))[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:49.835] [ClusterSystem-akka.actor.default-dispatcher-14] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Node [akka.tcp://ClusterSystem@127.0.0.1:2552] is JOINING, roles [backend][0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:49.949] [ClusterSystem-akka.actor.default-dispatcher-2] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Welcome from [akka.tcp://ClusterSystem@127.0.0.1:2551][0m
+[0m[[0minfo[0m] [0m[WARN] [05/28/2016 13:31:49.960] [ClusterSystem-akka.remote.default-remote-dispatcher-6] [akka.serialization.Serialization(akka://ClusterSystem)] Using the default Java serializer for class [MapReduce.BackendRegistration$] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0m[INFO] [05/28/2016 13:31:50.513] [ClusterSystem-akka.actor.default-dispatcher-17] [akka.cluster.Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Leader is moving node [akka.tcp://ClusterSystem@127.0.0.1:2552] to [Up][0m
+[0m[[0minfo[0m] [0m[WARN] [05/28/2016 13:31:50.525] [ClusterSystem-akka.remote.default-remote-dispatcher-6] [akka.serialization.Serialization(akka://ClusterSystem)] Using the default Java serializer for class [MapReduce.MapReduceJob] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0m[WARN] [05/28/2016 13:31:50.537] [ClusterSystem-akka.remote.default-remote-dispatcher-6] [akka.serialization.Serialization(akka://ClusterSystem)] Using the default Java serializer for class [MapReduce.TransformationResult] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
 [0m[[0minfo[0m] [0mTransformationResult(HELLO-3)[0m
 [0m[[0minfo[0m] [0mTransformationResult(HELLO-4)[0m
 [0m[[0minfo[0m] [0mTransformationResult(HELLO-5)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-6)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-7)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-8)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-9)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-10)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-11)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-12)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-13)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-14)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-15)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-16)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-17)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-18)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-19)[0m
-[0m[[0minfo[0m] [0mTransformationResult(HELLO-20)[0m
